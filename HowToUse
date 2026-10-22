@@ -1,0 +1,44 @@
+🚀 How to use
+1. Download the PowerShell script
+
+Download Test-M365Endpoints.ps1 and save it in a folder named:
+
+C:\Scripts
+
+2. Open PowerShell
+
+Open a PowerShell window and run the following command to allow the script to run for the current PowerShell session:
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+
+This setting applies only to the current PowerShell process.
+
+3. Navigate to the Scripts folder
+
+Run:
+
+cd C:\Scripts
+
+4. Run the script
+
+Execute the script with:
+
+.\Test-M365Endpoints.ps1
+
+
+The script will then run the Microsoft 365 endpoint connectivity tests and display the results.
+
+💡 Full command sequence
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+cd C:\Scripts
+.\Test-M365Endpoints.ps1
+
+📊 Test results
+
+The network testing script generates two CSV reports:
+
+M365_NetworkTests_20261022_233303.csv: contains the results of all network connectivity tests performed against the Microsoft 365 endpoints.
+M365_NetworkFailures_20261022_233303.csv: provides a dedicated report containing the connectivity tests that failed, making it easier to quickly identify endpoints that may be blocked or unreachable.
+
+This approach provides both a complete view of the network tests and a focused view of detected connectivity issues, making troubleshooting faster and easier.
