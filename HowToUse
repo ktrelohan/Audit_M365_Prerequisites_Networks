@@ -36,7 +36,7 @@ cd C:\Scripts
 
 📊 Test results
 
-The network testing script generates two CSV reports:
+The network testing script generates two CSV reports in %USERPROFILE% in M365-NetworkTests folder :
 
 M365_NetworkTests_20261022_233303.csv: contains the results of all network connectivity tests performed against the Microsoft 365 endpoints.
 M365_NetworkFailures_20261022_233303.csv: provides a dedicated report containing the connectivity tests that failed, making it easier to quickly identify endpoints that may be blocked or unreachable.
