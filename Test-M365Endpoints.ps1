@@ -1,4 +1,4 @@
-#requires -Version 5.2
+# Requires -Version 5.2
 # Copyright (c) 2026 Kevin TRELOHAN
 # Licensed under the MIT License.
 # Project: https://github.com/ktrelohan/Audit_M365_Prerequisites_Networks
